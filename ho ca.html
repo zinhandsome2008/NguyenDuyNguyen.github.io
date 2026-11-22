@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #rongbien{
+            width: 150px;
+            position: absolute;
+            bottom: 0;
+            left: 175px;
+        }
+        #cucda{
+            width: 300px;
+            position: absolute;
+            bottom: 0;
+            right: 200px;
+        }
+        #hoca{ width: 90%; border: 2px solid red; height: 70%;position: fixed; bottom: 0%;left: 20px; border-top: 0; background-color: #58bbe6;}
+        @keyframes caboi{
+            0%{left: 0;}
+            10%{translate:100px 0px;rotate: 20deg;transform: scaleX(1);}
+            20%{translate:190px 0px;rotate: -1deg;transform: scaleX(1);}
+            23%{translate:190px 0px;rotate: -1deg;transform: scaleX(-1);}
+            25%{translate:200px 0px;rotate: -10deg;transform: scaleX(1);}
+            40%{translate: 400px 20px;transform: scaleX(1);}
+            52%{translate: 400px 150px;rotate: -10deg;transform: scaleX(1);}
+            74%{translate: 1000px 10px;transform: scaleX(1);}
+            75%{translate: 1000px 0px;transform: scaleX(-1);}
+            99%{left: 0;transform: scaleX(-1);}
+            100%{left: 0;transform: scaleX(1);}
+        }
+        #shark{width: 220px ;animation-name: caboi;animation-duration: 30s; animation-iteration-count: infinite;animation-timing-function: linear;animation-play-state: running;}
+    </style>
+</head>
+<body>
+    <div id="hoca">
+        <img id="shark" src="ca map.png" />
+        <img id="rongbien" src ="rong bien.png" />
+        <img id="cucda" src="cuc da.png" />
+    </div>
+</body>
+</html>

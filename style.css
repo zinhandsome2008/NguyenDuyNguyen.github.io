@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e9eef3;
+    font-family: Arial, sans-serif;
+}
+.cv {
+    width: 850px;
+    min-height: 1050px;
+    margin: 30px auto;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 15px #999;
+}
+
+/* COT TRAI */
+.left {
+    width: 35%;
+    background-color: #243b55;
+    color: white;
+    padding: 35px 22px;
+}
+.avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto 35px;
+    object-fit: cover;
+    border: 3px solid white;
+}
+.left h2 {
+    font-size: 17px;
+    color: #8ed1fc;
+    margin-top: 28px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #8ed1fc;
+    padding-bottom: 8px;
+}
+.left p {
+    font-size: 12px;
+    line-height: 1.8;
+    margin-bottom: 5px;
+}
+.right {
+    width: 65%;
+    padding: 45px 30px;
+    color: #333;
+}
+.right h1 {
+    font-size: 32px;
+    color: #243b55;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+.right h3 {
+    font-size: 14px;
+    color: #5484a8;
+}
+.right hr {
+    border: none;
+    height: 2px;
+    background-color: #8ed1fc;
+    margin: 25px 0;
+}
+.right h2 {
+    font-size: 19px;
+    color: #243b55;
+    margin: 30px 0 20px;
+    border-left: 4px solid #5484a8;
+    padding-left: 10px;
+}
+.item {
+    margin-bottom: 25px;
+}
+.item h3 {
+    color: #5484a8;
+    margin-bottom: 8px;
+}
+.item b {
+    font-size: 14px;
+}
+.item p {
+    font-size: 13px;
+    line-height: 1.7;
+    margin-top: 6px;
+}
+.right > p {
+    font-size: 13px;
+    line-height: 1.8;
+}
